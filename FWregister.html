@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <!--link to bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <style>
+        form{
+            box-shadow: 5px 5px 5px 5px rgb(180, 248, 248);
+            border-radius: 15px;
+            color:rgb(1, 58, 59) ;
+            
+        }
+        
+        .frm{
+            background-color:rgb(30, 176, 178);
+            color:rgb(1, 58, 59) ;
+        }
+        .btn{
+            background-color:rgb(169, 240, 240);
+            margin: 20px;
+            width: 200px;
+            margin-left: 70px;
+            color:rgb(1, 58, 59);
+        }
+        .btn:hover{
+            background-color:rgb(165, 227, 227);
+            
+        }
+        
+        
+        input{
+            background-color: rgb(206, 243, 243);
+            
+        }
+        .Error{
+            color: red;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(223, 244, 244);" >
+        <form id="Registration" class="frm w-25 mx-auto my-auto mt-5">
+            <h1 class="text-center ">Register</h1>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="Fname" class="form-label fs-5">First name</label>
+                <input type="text" id="Fname">
+                <span id="FnameErr" class="error"></span>
+
+
+            </div>
+            <div  id="FnameErr" class="Error"></div>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="Sname" class="form-label fs-5">Second name</label>
+                <input type="text" id="Sname">
+                <span id="SnameErr" class="error"></span>
+
+            </div>
+            <div id="SnameErr" class="Error"></div>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="Password" class="form-label fs-5">Contact</label>
+                <input type="number" id="number">
+                <span id="numberErr" class="error"></span>
+            </div>
+            <div id="numberErr" class="Error"></div>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="Password" class="form-label fs-5">Password</label>
+                <input type="password" id="Password">
+                <span id="passwordErr" class="error"></span>
+            </div>
+            <div id="passwordErr" class="Error"></div>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="CPassword" class="form-label fs-5">Confirm </label>
+                <input type="password" id="CPassword">
+                <span id="CpasswordErr" class="error"></span>
+            </div>
+            <div id="CpasswordErr" class="Error"></div>
+            <button class="btn ">Register</button>
+       
+        </form>
+        <script src="register.js" type="module"></script>
+</body>
+</html>

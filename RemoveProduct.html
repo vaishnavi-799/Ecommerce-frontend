@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove product</title>
+    <!--link to bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="AddProducts.js" defer></script>
+    <style>
+        form{
+            box-shadow: 5px 5px 5px 5px rgb(180, 248, 248);
+            border-radius: 15px;
+            color:rgb(1, 58, 59) ;
+            
+        }
+        h2{
+            color:rgb(1, 58, 59) ;
+            text-align: center;
+        }
+        .frm{
+            background-color:rgb(30, 176, 178);
+            color:rgb(1, 58, 59) ;
+        }
+        .btn{
+            background-color:rgb(169, 240, 240);
+            margin: 20px;
+            width: 200px;
+            margin-left: 70px;
+            color:rgb(1, 58, 59);
+            border: 2px solid rgb(3, 147, 152) ;
+        }
+        .btn:hover{
+            background-color:rgb(44, 185, 185);
+            border: 2px solid rgb(3, 147, 152) ;
+        }
+        p{
+            margin-left: 25px;
+        }
+        a{
+            color: rgb(6, 40, 41);
+            font-weight: 800;
+        }
+        input{
+            background-color: rgb(159, 232, 232);
+            
+        }
+        #PError{
+            color: brown;
+        }
+    </style>
+   
+</head>
+
+<body style="background-color: rgb(223, 244, 244);" >
+        <form action="" class="frm w-50 mx-auto my-auto fs-4 mt-5" id="Admin">
+            <div class="m-5 pt-3 pb-3">
+                <h2 class="m-3">Remove product</h2>
+                <div class="d-flex justify-content-between m-3 ">
+                <label for="productName">product Name</label>
+                <input type="text" id="productName">
+                
+                </div>
+                <div class="d-flex justify-content-between m-3">
+                <label for="productRate">product Rate</label>
+                <input type="number" id="productRate">
+                </div>
+                
+                <div id="PError" ></div>
+                <button class="btn">Remove product</button>
+            </div>    
+        </form>
+        <script src="RemoveProduct.js" type="module"></script>   
+</body>
+</html>

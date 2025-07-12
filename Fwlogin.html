@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LoginPage</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    form {
+      box-shadow: 5px 5px 5px 5px rgb(180, 248, 248);
+      border-radius: 15px;
+      color: rgb(1, 58, 59);
+    }
+    .frm {
+      background-color: rgb(30, 176, 178);
+      color: rgb(1, 58, 59);
+    }
+    .btn {
+      background-color: rgb(169, 240, 240);
+      margin: 20px;
+      width: 200px;
+      margin-left: 70px;
+      color: rgb(1, 58, 59);
+      border: 2px solid rgb(3, 147, 152);
+    }
+    .btn:hover {
+      background-color: rgb(165, 227, 227);
+      border: 2px solid rgb(3, 147, 152);
+    }
+    p {
+      margin-left: 25px;
+    }
+    a {
+      color: rgb(6, 40, 41);
+      font-weight: 800;
+    }
+    input {
+      background-color: rgb(206, 243, 243);
+    }
+    .Error {
+      color: red;
+      margin-left: 25px;
+    }
+  </style>
+</head>
+<body style="background-color: rgb(223, 244, 244);">
+  <form id="loginForm" class="frm w-25 mx-auto my-auto mt-5">
+    <h1 class="text-center">Login</h1>
+
+    <div class="p-3 d-flex justify-content-around">
+      <label for="username" class="form-label fs-5">User name</label>
+      <input type="text" id="username" />
+    </div>
+    <div id="usernameError" class="Error"></div>
+
+    <div class="p-3 d-flex justify-content-around">
+      <label for="password" class="form-label fs-5">Password</label>
+      <input type="password" id="password" />
+    </div>
+    <div id="passwordError" class="Error"></div>
+
+    <p>Do you have an account? <a href="FWregister.html">create account</a></p>
+    <button class="btn">Login</button>
+  </form>
+
+  <!-- now this div has the matching id="msg" -->
+  <div id="msg" class="msg"></div>
+
+  <script src="login.js" type="module"></script>
+</body>
+</html>

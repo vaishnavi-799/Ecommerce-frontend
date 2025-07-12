@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminLogin</title>
+    <script src="admin.js"></script>
+    <!--link to bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <style>
+        form{
+            box-shadow: 5px 5px 5px 5px rgb(180, 248, 248);
+            border-radius: 15px;
+            color:rgb(1, 58, 59) ;
+            
+        }
+        
+        .frm{
+            background-color:rgb(30, 176, 178);
+            color:rgb(1, 58, 59) ;
+        }
+        .btn{
+            background-color:rgb(169, 240, 240);
+            margin: 20px;
+            width: 200px;
+            margin-left: 70px;
+            color:rgb(1, 58, 59);
+            border: 2px solid rgb(3, 147, 152) ;
+        }
+        .btn:hover{
+            background-color:rgb(165, 227, 227);
+            border: 2px solid rgb(3, 147, 152) ;
+        }
+        p{
+            margin-left: 25px;
+        }
+        a{
+            color: rgb(6, 40, 41);
+            font-weight: 800;
+        }
+        input{
+            background-color: rgb(206, 243, 243);
+            
+        }
+        #nameError,#pswError{
+            color: red;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(223, 244, 244);" >
+        <form action="" class="frm w-25 mx-auto my-auto mt-5" id="Admin">
+            <h1 class="text-center ">Admin Login</h1>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="Username" class="form-label fs-5">Name</label>
+                <input type="text" id="name">
+                <div id="nameError"></div>
+            </div>
+            <div class="p-3 d-flex justify-content-around ">
+                <label for="Password" class="form-label fs-5">Password</label>
+                <input type="password" id="password">
+                <div id="pswError"></div>
+            </div>
+            <button class="btn " >Let,s Go</button>
+
+            
+       
+        </form>
+        <script src="LoginAdminn.js"></script>   
+</body>
+</html>
