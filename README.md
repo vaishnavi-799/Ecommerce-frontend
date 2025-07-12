@@ -18,7 +18,7 @@ A responsive and modern frontend design for an e-commerce website built using HT
 - Bootstrap
 
 ## 📸 Screenshots
-![Homepage](./images/homepage.png)
+![Homepage](./ecommerceimages//UsersInterface/FashionWorld.html)
 
 ## 👩‍💻 Author
 **Vaishnavi Gurramkonda**  
