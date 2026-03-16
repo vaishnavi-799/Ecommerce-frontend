@@ -1,6 +1,6 @@
 // Default products
 let defaultProducts = [
-    { item: "iPad", rate: 41999, dsc: "Prime Members Can Enjoy Unlimited Free Shipping, Early Access To Lightning Deals", img: "https://th.bing.com/th?id=OPAC.tONn0%2b9X6Lv3rQ474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" },
+    { item: "iPad", rate: 41999, dsc: "Prime Members Can Enjoy Unlimited Free Shipping, Early Access To Lightning Deals", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKp0p9STfrKSY9asP3FM3sOpV4XcBE9YmY_g&s" },
     { item: "Laptop", rate: 100000, dsc: "High-performance laptop for coding, gaming, and design.", img: "https://th.bing.com/th?id=OPAC.mMP8G1X%2bPtgOKg474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" },
     { item: "Smartphone", rate: 69999, dsc: "Flagship phone with triple camera and AMOLED display.", img: "https://thaka.bing.com/th?q=I14+Pro+Max+Smartphone&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" },
     { item: "Smartwatch", rate: 15999, dsc: "Track fitness, heart rate, and get notifications on the go.", img: "https://thaka.bing.com/th/id/OIP.Cgg7x4IfpiNhCdalpA8DOQHaHc?w=198&h=199&c=7&r=0&o=5&cb=iwc1&dpr=1.3&pid=1.7"},
